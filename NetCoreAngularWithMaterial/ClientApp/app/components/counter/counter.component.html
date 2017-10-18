@@ -5,3 +5,8 @@
 <p>Current count: <strong>{{ currentCount }}</strong></p>
 
 <button (click)="incrementCounter()">Increment</button>
+<button mat-button (click)="incrementCounter()">Increment</button>
+<br />
+<mat-form-field>
+    <input matInput placeholder="Test input" value="{{currentCount}}" >
+</mat-form-field>
